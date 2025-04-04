@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Loja de Vestuário</title>
+</head>
+<body>
+    <header>
+        <h1>Loja de Vestuário</h1>
+        <input type="text" id="search" placeholder="Pesquisar...">
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#masculino">Masculino</a></li>
+            <li><a href="#feminino">Feminino</a></li>
+            <li><a href="#infantil">Infantil</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="masculino">
+            <h2>Masculino</h2>
+            <div class="product" data-name="Camisa">
+                <img src="camisa.jpg" alt="Camisa">
+                <h3>Camisa</h3>
+                <button class="favorite">Favoritar</button>
+                <button class="add-to-cart">Adicionar ao Carrinho</button>
+            </div>
+            <!-- Adicione mais produtos aqui -->
+        </section>
+
+        <section id="feminino">
+            <h2>Feminino</h2>
+            <div class="product" data-name="Vestido">
+                <img src="vestido.jpg" alt="Vestido">
+                <h3>Vestido</h3>
+                <button class="favorite">Favoritar</button>
+                <button class="add-to-cart">Adicionar ao Carrinho</button>
+            </div>
+            <!-- Adicione mais produtos aqui -->
+        </section>
+
+        <section id="infantil">
+            <h2>Infantil</h2>
+            <div class="product" data-name="Camiseta Infantil">
+                <img src="camiseta_infantil.jpg" alt="Camiseta Infantil">
+                <h3>Camiseta Infantil</h3>
+                <button class="favorite">Favoritar</button>
+                <button class="add-to-cart">Adicionar ao Carrinho</button>
+            </div>
+            <!-- Adicione mais produtos aqui -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Loja de Vestuário</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
