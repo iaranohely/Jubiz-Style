@@ -31,7 +31,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: #af7ba9;
     text-decoration: none;
 }
 
@@ -42,9 +42,9 @@ main {
 }
 
 section {
-    background: white; /* Fundo branco para as seções */
+    background: #ffbd59; /* Fundo branco para as seções */
     border-radius: 8px; /* Bordas arredondadas */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidade */
+    box-shadow: 0 2px 5px #f37021(0, 0, 0, 0.1); /* Sombra para dar profundidade */
     padding: 20px;
     width: 30%; /* Largura das seções */
     margin: 10px; /* Margem entre as seções
