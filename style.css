@@ -6,11 +6,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4; /* Cor de fundo para um visual mais agradável */
+    background-color: #ffbd59; /* Cor de fundo para um visual mais agradável */
 }
 
 header {
-    background: #ffbd59;
+    background: #f1c86c;
     color: white;
     padding: 20px;
     text-align: center;
