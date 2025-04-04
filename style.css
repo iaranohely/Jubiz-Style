@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box; /* Para garantir que o padding e a borda não aumentem a largura total */
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -43,33 +47,4 @@ section {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidade */
     padding: 20px;
     width: 30%; /* Largura das seções */
-}
-
-.product {
-    border: 1px solid #ccc;
-    margin: 10px 0; /* Margem vertical entre produtos */
-    padding: 10px;
-    text-align: center;
-}
-
-.product img {
-    width: 100%; /* Ajusta a largura da imagem do produto */
-    height: auto; /* Mantém a proporção da imagem */
-}
-
-.favorite, .add-to-cart {
-    width: 30px; /* Ajuste o tamanho da imagem */
-    height: 30px; /* Ajuste o tamanho da imagem */
-    cursor: pointer; /* Muda o cursor para indicar que é clicável */
-    margin: 5px; /* Espaçamento entre as imagens */
-}
-
-footer {
-    text-align: center;
-    padding: 20px;
-    background: #333;
-    color: white;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
+    margin: 10px; /* Margem entre as seções
