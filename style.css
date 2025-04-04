@@ -43,12 +43,17 @@ main {
     text-align: center;
 }
 
-footer {
-    text-align: center;
-    padding: 10px;
-    background: #333;
-    color: white;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+.product img {
+    width: 100%; /* Ajusta a largura da imagem do produto */
+    height: auto; /* Mantém a proporção da imagem */
 }
+
+.favorite, .add-to-cart {
+    width: 30px; /* Ajuste o tamanho da imagem */
+    height: 30px; /* Ajuste o tamanho da imagem */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    margin: 5px; /* Espaçamento entre as imagens */
+}
+
+footer {
+    text
