@@ -11,7 +11,7 @@ body {
 
 header {
     background: #f1c86c; /* Cor de fundo do cabeçalho */
-    color: white; /* Cor do texto no cabeçalho */
+    color: #000000; /* Cor do texto no cabeçalho */
     padding: 20px;
     text-align: center;
 }
@@ -38,4 +38,3 @@ nav ul li a {
 main {
     display: flex; /* Usar flexbox para layout */
     justify-content: space-around; /* Espaçar as
-    
