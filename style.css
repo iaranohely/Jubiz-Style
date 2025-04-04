@@ -2,12 +2,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f4f4f4; /* Cor de fundo para um visual mais agradável */
 }
 
 header {
     background: #333;
     color: white;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
 }
 
@@ -22,7 +23,7 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 0 15px;
+    margin: 0 20px; /* Aumenta o espaçamento entre os itens do menu */
 }
 
 nav ul li a {
@@ -31,15 +32,23 @@ nav ul li a {
 }
 
 main {
+    display: flex; /* Usar flexbox para layout */
+    justify-content: space-around; /* Espaçar as seções uniformemente */
     padding: 20px;
+}
+
+section {
+    background: white; /* Fundo branco para as seções */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidade */
+    padding: 20px;
+    width: 30%; /* Largura das seções */
 }
 
 .product {
     border: 1px solid #ccc;
-    margin: 10px;
+    margin: 10px 0; /* Margem vertical entre produtos */
     padding: 10px;
-    display: inline-block;
-    width: 200px;
     text-align: center;
 }
 
@@ -56,4 +65,11 @@ main {
 }
 
 footer {
-    text
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
